@@ -46,5 +46,10 @@ namespace cv_manager_app
         {
 
         }
+
+        private void displayMessages_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.displayMessages = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.SectionButton = new System.Windows.Forms.Button();
             this.Messages = new System.Windows.Forms.Button();
@@ -36,15 +36,15 @@
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label1
+            // displayMessages
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(393, 95);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(105, 16);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "last 3 messages";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.displayMessages.AutoSize = true;
+            this.displayMessages.Location = new System.Drawing.Point(393, 95);
+            this.displayMessages.Name = "displayMessages";
+            this.displayMessages.Size = new System.Drawing.Size(105, 16);
+            this.displayMessages.TabIndex = 0;
+            this.displayMessages.Text = "last 3 messages";
+            this.displayMessages.Click += new System.EventHandler(this.displayMessages_Click);
             // 
             // label3
             // 
@@ -95,7 +95,7 @@
             this.ClientSize = new System.Drawing.Size(1708, 871);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.displayMessages);
             this.Name = "dashboardForm";
             this.Text = "dashboardForm";
             this.Load += new System.EventHandler(this.dashboardForm_Load);
@@ -107,7 +107,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label displayMessages;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button SectionButton;
         private System.Windows.Forms.Button Messages;
