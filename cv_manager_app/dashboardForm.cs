@@ -32,11 +32,6 @@ namespace cv_manager_app
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void groupBox1_Enter(object sender, EventArgs e)
         {
 
@@ -50,6 +45,12 @@ namespace cv_manager_app
         private void displayMessages_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void cvButton_Click(object sender, EventArgs e)
+        {
+            CVManagerForm newForm = new CVManagerForm();
+            newForm.Show();
         }
     }
 }

@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CVManagerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CVManagerForm.Designer.cs">
+      <DependentUpon>CVManagerForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="dashboardForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CVManagerForm.resx">
+      <DependentUpon>CVManagerForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="dashboardForm.resx">
       <DependentUpon>dashboardForm.cs</DependentUpon>
     </EmbeddedResource>
