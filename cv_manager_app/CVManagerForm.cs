@@ -16,5 +16,10 @@ namespace cv_manager_app
         {
             InitializeComponent();
         }
+
+        private void modifyResume_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
